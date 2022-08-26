@@ -1,0 +1,85 @@
+body{
+    background: #F9CCE7;
+}
+
+/*nav*/
+.navbar .logo img {
+    /* position: absolute; */
+    width: 12%;
+    min-width: 75px ;
+    top: 0;
+    left: 0;
+    border-radius: 0 0 30px 0;
+    -webkit-border-radius: 0 0 30px 0;
+    -moz-border-radius: 0 0 30px 0;
+    -ms-border-radius: 0 0 30px 0;
+    -o-border-radius: 0 0 30px 0;
+    opacity: .5;
+}
+
+.navbar .container-fluid{
+    background: #F9CCE7;
+}
+
+.navbar .container-fluid .navbar-collapse .nav-item .active{
+    color: white;
+    cursor:default;
+}
+
+.navbar .container-fluid .navbar-collapse .nav-item .hover:hover{
+    color: white;
+}
+
+
+/* footer */
+
+.container .texto{
+    font-size: 2vw ;
+}
+
+
+/*media*/
+@media (max-width:991px ) { 
+    .navbar .container-fluid .navbar-collapse{
+        display:grid;
+        justify-content: center;
+    }
+    .navbar .container-fluid .navbar-collapse .nav-link{
+        display:grid;
+        justify-content: center;
+    }
+}
+/* inicion de formatos para paginas no mover lo de arriba solo es para nav*/
+
+
+/* index */
+
+i{
+    font-size: 4rem;
+    text-align: center;
+}
+
+@media (min-width:1199px ) { 
+    .container .row .card4 {
+        display: none;
+    }
+}
+
+/* galeria */
+.carousel .carousel-item img{
+    size: 50%;
+}
+
+/* contacto */
+.titulos{
+    text-align: end;
+}
+h2 {
+    text-transform: uppercase;
+}
+   
+/* acerca de nosotoros */
+.parrafo .acercade{
+    text-align: justify;
+}
+
